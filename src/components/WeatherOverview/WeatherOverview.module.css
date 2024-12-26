@@ -1,0 +1,163 @@
+.loading-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.error-message {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #c53030;
+  margin: 0.5rem 0;
+}
+
+.weather-overview {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  border-radius: 0.75rem;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 0.5rem;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.temperature-info {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.temperature {
+  font-size: 1.875rem;
+  font-weight: bold;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 1.875rem;
+  }
+}
+
+.temperature-unit {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-left: 0.25rem;
+}
+
+.location {
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+  color: #0c2c59;
+}
+
+.hot {
+  color: #c60000;
+}
+
+.cold {
+  color: #006edb;
+}
+
+.feels-like-info {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.feels-like-label {
+  padding: 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.feels-like-temp {
+  display: flex;
+  align-items: center;
+}
+
+.feels-like-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 1.5rem;
+  }
+}
+
+.feels-like-unit {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-left: 0.25rem;
+}
+
+.weather-description {
+  padding: 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+
+  @media (min-width: 768px) {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.local-date {
+  padding: 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+
+  @media (min-width: 768px) {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
